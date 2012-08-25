@@ -1,5 +1,6 @@
 export PATH=/usr/local/bin:/Applications/Cloud9.app/Contents/installs/c9local/bin:$PATH
 alias proj='cd /Volumes/Data/Projects'
+eval "$(hub alias -s)"
 
 # Set git autocompletion and PS1 integration
 if [ -f /usr/local/git/contrib/completion/git-completion.bash ]; then
